@@ -1,0 +1,48 @@
+# ======================
+# Dépendances Node.js
+# ======================
+node_modules/
+
+# ======================
+# Fichiers d'environnement
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Logs
+# ======================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# Fichiers temporaires Selenium
+# ======================
+error.png
+*.log
+
+# ======================
+# Fichiers OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE / Editors
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# Cache / build
+# ======================
+dist/
+build/
+coverage/
+
+# ======================
+# Excel temporaires / backups
+# ======================
+~$*.xlsx
